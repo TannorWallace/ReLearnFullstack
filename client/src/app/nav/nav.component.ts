@@ -22,5 +22,8 @@ ngOnInit(): void {
       console.log(error);
    })
   }
+  logout() {
+    this.loggedIn = false;
+  }
 
 }
